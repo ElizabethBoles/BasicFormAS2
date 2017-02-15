@@ -1,44 +1,62 @@
 <!DOCTYPE html>
 <html>
-        <head>
-          <meta charset="utf-8">
-          <title>Force User Sign Up Form</title>
-        </head>
-        <body>
-          <fieldset>
-            <legend>Basic Info</legend>
-            <aside>
+  <head>
+    <meta charset="utf-8">
+    <title>Force User Sign Up Form</title>
+  </head>
+  <body>
+
+    <fieldset>
+        <legend>Basic Info</legend>
+
+          <aside>
             <label for="fullname-input">Full Name</label>
             <input type="text" name="fullname" id="fullname-input">
           </aside>
+
           <aside>
             <label for="email">Email</label>
             <input type="email" name="email" id="email" required>
           </aside>
-          </fieldset>
-          <fieldset>
-              <legend>Abilities</legend>
-              <label>Side
-              <input type="radio" name="contact-method" value="light">
-              Email
+            <label>Side:
+            <input type="radio" name="contact-method" value="light">
+            Email
             </label>
             <label>
-              <input type="radio" name="contact-method" value="dark">
-              Phone
-            </label>
-          <lable for="fullname-input">Origin Story</label>
-          <p><textarea name="cover-letter" id="cover-letter"></textarea></p>
-          </aside>
-        </fieldset>
+            <input type="radio" name="contact-method" value="dark">
+            Phone
+          </label>
+          <label for="fullname-input">Origin Story</label>
+          <textarea name="cover-letter" id="cover-letter"></textarea>
+        </aside>
 
-        <fieldset>
+    </fieldset>
+
+    <fieldset>
+        <legend>Abilities</legend>
+        LightSaber Color
+        How many objects can you levitate at once>
+        Favorite ability
+        <input type="checkbox">
+        <input type="checkbox">
+        <input type="checkbox">
+        <input type="checkbox">
+        <input type="checkbox">
+        <input type="checkbox">
+
+    </fieldset>
+
+    <fieldset>
+            Lightsaber color
             <legend>Application Info</legend>
           <aside>
             <input type="text" name="Desired Mentor" id="address" placeholder="Yoda">
           </aside>
-        <h>How do you get to the dark side<h>
-        </fieldset>
-        <input type="submit" value="start over">
-        <input type="submit" value="apply">
-        </body>
-        </html>
+            How do you get to the dark side
+            <textarea name="cover-letter" id="cover-letter"></textarea>
+    </fieldset>
+            <input type="submit" value="start over">
+            <input type="submit" value="apply">
+            &copy 2016 The Republic
+  </body>
+</html>
