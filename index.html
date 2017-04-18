@@ -16,7 +16,7 @@
 
         <aside>
           <label for="fullname-input">Full Name</label>
-          <input type="text" name="fullname" id="fullname-input">
+          <input type="text" name="fullname" id="fullname-input" placeholder="Jordan Kasper" required>
         </aside>
 
         <aside>
@@ -27,12 +27,12 @@
         <aside>
           <label>
           </aside>
-          <input type="radio" name="contact-method" value="Full Name">
-          Full Name
+          <input type="radio" name="contact-method" value="Light">
+          Light
         </label>
         <label>
-          <input type="radio" name="contact-method" value="Email">
-          Email
+          <input type="radio" name="contact-method" value="Dark">
+          Dark
         </label>
 
         <aside>
@@ -43,6 +43,7 @@
 
       <fieldset>
         <legend>Abilities</legend>
+
         <aside>
           <label for="Lightsaber-Color">Lightsaber Color</label>
           <select name="Lighsaber-Color">
@@ -52,13 +53,20 @@
             <option value="green">Green</option>
             <option value="purple">Purple</option>
           </aside>
+
           <aside>
             <label for="object">How many objects can you levitate at once?</label>
             <input type="levitate" name="object" id="object" min="1" max="7">
           </aside>
+
           <aside>
-            Favorite ability
+            Favorite Ability
           </aside>
+
+          <aside>
+            Pilot Experience
+          </aside>
+
           <input type="checkbox" name="experience" value="Speeder">
           Speeder
           <input type="checkbox" name="experience" value="Transport">
@@ -100,7 +108,7 @@
         </fieldset>
 
         <footer>
-          <p>&copy 2016 The Republic</p>
+          &copy; 2016 The Republic
         </footer>
       </form>
     </body>
