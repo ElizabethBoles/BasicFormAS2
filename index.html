@@ -16,24 +16,27 @@
 
         <aside>
           <label for="fullname-input">Full Name</label>
-          <input type="text" name="fullname" id="fullname-input" placeholder="Jordan Kasper" required>
+          <input type="text" name="fullname" id="fullname-input" placeholder="Luke Skywalker" required>
+        </aside>
+
+        <aside>
+          <label for="profile-pic">Profile Pic</label>
+          <input type="text" name="profile-pic" id="profile=pic">
         </aside>
 
         <aside>
           <label for="email">Email</label>
-          <input type="text" name="fullname" id="fullname-input" placeholder="Luke Skywalker" class="extended-input" required>
+          <input type="text" name="fullname" id="fullname-input" placeholder="luke@sky.com" class="extended-input" required>
         </aside>
 
-        <aside>
-          <label>
-          </aside>
-          <input type="radio" name="contact-method" value="Light">
-          Light
-        </label>
-        <label>
-          <input type="radio" name="contact-method" value="Dark">
-          Dark
-        </label>
+
+        <label for="side">Side:</label>
+         <section name="side">
+            <input type="radio" name="contact-method" id="Light">
+            <label class="radio-label" for="Light">Light</label>
+            <input type="radio" name="contact-method" id="Dark">
+            <label class="radio-label" for="Dark">Dark</label>
+          </section>
 
         <aside>
           <label for="fullname-input">Origin Story</label>
@@ -43,28 +46,26 @@
 
       <fieldset>
         <legend>Abilities</legend>
-
         <aside>
           <label for="Lightsaber-Color">Lightsaber Color</label>
           <select name="Lighsaber-Color">
-            <option value="">Select-Color</option>
-            <option value="blue">Blue</option>
-            <option value="red">Red</option>
-            <option value="green">Green</option>
-            <option value="purple">Purple</option>
+              <option value="">Select-Color</option>
+              <option value="blue">Blue</option>
+              <option value="red">Red</option>
+              <option value="green">Green</option>
+              <option value="purple">Purple</option>
           </aside>
-
           <aside>
-            <label for="object">How many objects can you levitate at once?</label>
-            <input type="levitate" name="object" id="object" min="1" max="7">
+              <label for="levitate-objects">How many objects can you levitate at once?</label>
+              <input type="number" name="levitate" id="levitate-objects" min="1" max="10">
           </aside>
-
           <aside>
-            Favorite Ability
+              <label for="favorite-ability">Favorite Ability</label>
+              <input type="text" name="favorite-ab" id="favorite-ability" placeholder="precognition" required>
           </aside>
-
           <aside>
-            Pilot Experience
+              <label for="pilot-experience">Pilot Experience</label>
+              <input type="text" name="pilot-ex" id="pilot-experience" required>
           </aside>
 
           <input type="checkbox" name="experience" value="Speeder">
@@ -82,29 +83,24 @@
 
         <fieldset>
           <legend>Application Info</legend>
-
           <aside>
-            <label for="desiredmentor-input">Desired Mentor</label>
-            <input type="text" name="Desired Mentor" id="Desired Mentor-input" placeholder="Yoda">
+              <label for="desiredmentor-input">Desired Mentor</label>
+              <input type="text" name="Desired Mentor" id="Desired Mentor-input" placeholder="Yoda">
           </aside>
-
           <aside>
-            <label for="date">Application Date</label>
-            <input type=
+              <label for="date">Application Date</label>
+              <input type="date" name="date" id="date" required>
           </aside>
-
           <aside>
-            <label for="password">Application Password</label>
-            <input type="date" name="date" id="date" required>
+              <label for="password">Application Password</label>
+              <input type="text" name="password" id="password" required>
           </aside>
-
           <aside>
-            <label for="Darkside">How do you get to the dark side?</label>
-            <textarea name="text" name="Darkside" id="Darkside"></textarea>
+              <label for="Darkside">How do you get to the dark side?</label>
+              <textarea name="text" name="Darkside" id="Darkside"></textarea>
           </aside>
-
-            <input type="reset" value="Start Over" id="start-over" class="coloredbuttons">
-            <input type="submit" value="Apply" id="submit-button" class="coloredbuttons">
+              <input type="reset" value="Start Over" id="start-over" class="coloredbuttons">
+              <input type="submit" value="Apply" id="submit-button" class="coloredbuttons">
         </fieldset>
 
         <footer>
