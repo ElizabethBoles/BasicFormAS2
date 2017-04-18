@@ -39,7 +39,6 @@
           <label for="fullname-input">Origin Story</label>
           <textarea name="cover-letter" id="cover-letter"></textarea>
         </aside>
-
       </fieldset>
 
       <fieldset>
@@ -52,37 +51,42 @@
             <option value="red">Red</option>
             <option value="green">Green</option>
             <option value="purple">Purple</option>
-        </aside>
-        <aside>
-          How many objects can you levitate at once?
-        </aside>
-        <aside>
-          Favorite ability
-        </aside>
-        <input type="checkbox" name="experience" value="Speeder">
-        Speeder
-        <input type="checkbox" name="experience" value="Transport">
-        Transport
-        <input type="checkbox" name="experience" value="X-Wing">
-        X-Wing
-        <input type="checkbox" name="experience" value="TIE Fighter">
-        TIE Fighter
-        <input type="checkbox" name="experience" value="Starship">
-        Starship
-        <input type="checkbox" name="experience" value="Bantha">
-      </fieldset>
+          </aside>
+          <aside>
+            <label for="object">How many objects can you levitate at once?</label>
+            <input type="levitate" name="object" id="object" min="1" max="7">
+          </aside>
+          <aside>
+            Favorite ability
+          </aside>
+          <input type="checkbox" name="experience" value="Speeder">
+          Speeder
+          <input type="checkbox" name="experience" value="Transport">
+          Transport
+          <input type="checkbox" name="experience" value="X-Wing">
+          X-Wing
+          <input type="checkbox" name="experience" value="TIE Fighter">
+          TIE Fighter
+          <input type="checkbox" name="experience" value="Starship">
+          Starship
+          <input type="checkbox" name="experience" value="Bantha">
+        </fieldset>
 
-      <fieldset>
-        <legend>Application Info</legend>
-        <aside>
-          <label for="desiredmentor-input">Desired Mentor</label>
-          <input type="text" name="Desired Mentor" id="Desired Mentor-input" placeholder="Yoda">
-          <label for="Darkside">How do you get to the dark side</label>
-          <textarea name="Darkside" id="Darkside"</textarea>
-            <input type="submit" value="start over">
-            <input type="submit" value="apply">
+        <fieldset>
+          <legend>Application Info</legend>
+          <aside>
+            <label for="desiredmentor-input">Desired Mentor</label>
+            <input type="text" name="Desired Mentor" id="Desired Mentor-input" placeholder="Yoda">
+            <label for="Darkside">How do you get to the dark side?</label>
+          </aside>
+          <label for="Darkside" id="Darkside"></label>
+            <input type="reset" value="Start Over" id="start-over" class="coloredbuttons">
+            <input type="submit" value="Apply" id="submit-button" class="coloredbuttons">
           </fieldset>
-          <footer><p>&copy 2016 The Republic</p></footer>
+
+          <footer>
+            <p>&copy 2016 The Republic</p>
+          </footer>
         </form>
       </body>
       </html>
