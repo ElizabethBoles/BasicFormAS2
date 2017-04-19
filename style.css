@@ -1,3 +1,15 @@
 body {
-
+  margin: 0;
+}
+form {
+  width: 90%;
+  margin: 0 auto;
+}
+fieldset {
+  display: inline;
+  vertical-align: top;
+  width: 28%;
+}
+input[type=text] {
+  border: 1px black solid;
 }

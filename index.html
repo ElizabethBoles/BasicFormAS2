@@ -3,33 +3,27 @@
 <head>
   <meta charset="utf-8">
   <title>Force User Sign Up Form</title>
+  <link href="style.css" rel="stylesheet">
 </head>
 <body>
   <header>
     <h1>Force User Sign Up Form<h1>
     </header>
-
     <form action="http://requestb.in/1bquzkf1" method="POST">
-
       <fieldset>
         <legend>Basic Info</legend>
-
         <aside>
           <label for="fullname-input">Full Name</label>
           <input type="text" name="fullname" id="fullname-input" placeholder="Luke Skywalker" required>
         </aside>
-
         <aside>
           <label for="profile-pic">Profile Pic</label>
           <input type="file" name="profile-pic" id="profile=pic" accept="image/*">
         </aside>
-
         <aside>
           <label for="email">Email</label>
           <input type="text" name="fullname" id="fullname-input" placeholder="luke@sky.com" class="extended-input" required>
         </aside>
-
-
         <label for="side">Side:</label>
          <section name="side">
             <input type="radio" name="contact-method" id="Light">
@@ -37,13 +31,11 @@
             <input type="radio" name="contact-method" id="Dark">
             <label class="radio-label" for="Dark">Dark</label>
           </section>
-
         <aside>
           <label for="fullname-input">Origin Story</label>
           <textarea name="cover-letter" id="cover-letter"></textarea>
         </aside>
       </fieldset>
-
       <fieldset>
         <legend>Abilities</legend>
         <aside>
@@ -67,20 +59,19 @@
               <label for="pilot-experience">Pilot Experience</label>
               <input type="text" name="pilot-ex" id="pilot-experience" required>
           </aside>
-
-          <input type="checkbox" name="experience" value="Speeder">
-          Speeder
-          <input type="checkbox" name="experience" value="Transport">
-          Transport
-          <input type="checkbox" name="experience" value="X-Wing">
-          X-Wing
-          <input type="checkbox" name="experience" value="TIE Fighter">
-          TIE Fighter
-          <input type="checkbox" name="experience" value="Starship">
-          Starship
-          <input type="checkbox" name="experience" value="Bantha">
+              <input type="checkbox" name="experience" value="Speeder">
+              Speeder
+              <input type="checkbox" name="experience" value="Transport">
+              Transport
+              <input type="checkbox" name="experience" value="X-Wing">
+              X-Wing
+              <input type="checkbox" name="experience" value="TIE Fighter">
+              TIE Fighter
+              <input type="checkbox" name="experience" value="Starship">
+              Starship
+              <input type="checkbox" name="experience" value="Bantha">
+              Bantha
         </fieldset>
-
         <fieldset>
           <legend>Application Info</legend>
           <aside>
@@ -102,7 +93,6 @@
               <input type="reset" value="Start Over" id="start-over" class="coloredbuttons">
               <input type="submit" value="Apply" id="submit-button" class="coloredbuttons">
         </fieldset>
-
         <footer>
           &copy; 2016 The Republic
         </footer>
